@@ -14,6 +14,9 @@
 
 * **AUTO mode:** adjusts brightness smoothly & dynamically. you can set at what light condition the smart light will automatically turn off, with the lux threshold.
 * **MANUAL mode:** custom colors and brightness settings.
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/ba0ce071-8637-4d28-9fb7-0a61c7c75cac" width="300" controls></video>
+</p>
 
 ## hardware
 * **MCU:** esp32 dev board
@@ -21,9 +24,7 @@
 * **Sensors:**
     * BH1750 (I2C Light Sensor)
     * HC-SR04 (Ultrasonic Distance Sensor)
-<p align="center">
-  <video src="https://github.com/user-attachments/assets/ba0ce071-8637-4d28-9fb7-0a61c7c75cac" width="300" controls></video>
-</p>
+
 
 
 ## pin configuration
