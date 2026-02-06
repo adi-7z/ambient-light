@@ -1,7 +1,4 @@
-# smart light with ambient controls
-* uses depth and ambient light of the environment to adjust it's light automatically.
-* can be controlled & monitored using a web dashboard
-  
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/0efab13f-efeb-4c4e-ab5c-47215bc28e41" height="300">
   <img src="https://github.com/user-attachments/assets/76285999-8184-449a-80c2-7a9d8cdccfd3" height="300">
@@ -11,7 +8,8 @@
 
 ## features
 * real time graphs for system temperature, ambient light, and room depth.
-
+* uses depth and ambient light of the environment to adjust it's light automatically.
+* can be controlled & monitored using a web dashboard
 * **AUTO mode:** adjusts brightness smoothly & dynamically. you can set at what light condition the smart light will automatically turn off, with the lux threshold.
 * **MANUAL mode:** custom colors and brightness settings.
 <p align="center">
