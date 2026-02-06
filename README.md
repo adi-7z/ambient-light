@@ -1,8 +1,11 @@
 # smart light with ambient controls
 * uses depth and ambient light of the environment to adjust it's light automatically.
 * can be controlled & monitored using a web dashboard
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0efab13f-efeb-4c4e-ab5c-47215bc28e41" width="300">
+  <img src="https://github.com/user-attachments/assets/76285999-8184-449a-80c2-7a9d8cdccfd3" width="300">
+</p>
 ## features
-
 * real time graphs for system temperature, ambient light, and room depth.
 
 * **AUTO mode:** adjusts brightness smoothly & dynamically. you can set at what light condition the smart light will automatically turn off, with the lux threshold.
@@ -14,10 +17,6 @@
 * **Sensors:**
     * BH1750 (I2C Light Sensor)
     * HC-SR04 (Ultrasonic Distance Sensor)
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/0efab13f-efeb-4c4e-ab5c-47215bc28e41" width="300">
-  <img src="https://github.com/user-attachments/assets/76285999-8184-449a-80c2-7a9d8cdccfd3" width="300">
-</p>
 <p align="center">
   <video src="https://github.com/user-attachments/assets/ba0ce071-8637-4d28-9fb7-0a61c7c75cac" width="300" controls></video>
 </p>
