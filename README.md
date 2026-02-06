@@ -22,6 +22,17 @@ An ESP32-based 8x8 LED matrix controller with a reactive web dashboard. The syst
   <img src="https://github.com/user-attachments/assets/0efab13f-efeb-4c4e-ab5c-47215bc28e41" width="300">
   <img src="https://github.com/user-attachments/assets/76285999-8184-449a-80c2-7a9d8cdccfd3" width="300">
 </p>
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/ba0ce071-8637-4d28-9fb7-0a61c7c75cac" width="300" controls></video>
+</p>
+
+
+
+
+
+
+
+
 
 ## Pinout Configuration
 | Component | ESP32 Pin | Note |
