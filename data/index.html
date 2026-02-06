@@ -101,7 +101,6 @@ function updateSlider(k,v){
 }
 
 function set(k,v){
-  // FIXED: Removed keepalive:true to prevent socket exhaustion
   fetch(`/set?${k}=${v}`);
   if(k=='c'||k=='b')updateModeUI(1);
 }
