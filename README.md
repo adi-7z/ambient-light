@@ -1,20 +1,16 @@
-# Smart LED Matrix & IoT Monitor
+# smart light with ambient controls
+* uses depth and ambient light of the environment to adjust it's light automatically.
+* can be controlled & monitored using a web dashboard
+## features
 
-An ESP32-based 8x8 LED matrix controller with a reactive web dashboard. The system operates in two modes: **Manual** (web control) or **Auto** (adjusts based on ambient light and proximity).
+* real time graphs for system temperature, ambient light, and room depth.
 
-## Features
-* **Dual Mode Control:**
-    * **Auto:** Fades brightness dynamically based on LUX readings and user distance.
-    * **Manual:** Full RGB color selection and brightness control via web UI.
-* **Web Dashboard:** Responsive interface (LittleFS) with real-time graphs for:
-    * Internal Chip Temperature
-    * Ambient Light (Lux)
-    * Proximity (cm)
-* **Soft Dimming:** Smooth transition algorithms for LED brightness.
+* **AUTO mode:** adjusts brightness smoothly & dynamically. you can set at what light condition the smart light will automatically turn off, with the lux threshold.
+* **MANUAL mode:** custom colors and brightness settings.
 
-## Hardware
-* **MCU:** ESP32 Development Board
-* **Display:** 8x8 NeoPixel RGB Matrix (WS2812B)
+## hardware
+* **MCU:** esp32 dev board
+* **light:** 8x8 NeoPixel Matrix (WS2812B RGB LED)
 * **Sensors:**
     * BH1750 (I2C Light Sensor)
     * HC-SR04 (Ultrasonic Distance Sensor)
@@ -27,14 +23,7 @@ An ESP32-based 8x8 LED matrix controller with a reactive web dashboard. The syst
 </p>
 
 
-
-
-
-
-
-
-
-## Pinout Configuration
+## pin configuration
 | Component | ESP32 Pin | Note |
 | :--- | :--- | :--- |
 | **I2C SDA** | GPIO 21 | BH1750 |
@@ -45,7 +34,7 @@ An ESP32-based 8x8 LED matrix controller with a reactive web dashboard. The syst
 | **Echo** | GPIO 14 | Ultrasonic |
 | **Matrix** | GPIO 15 | DIN |
 
-## Dependencies
+## dependencies
 * `ESPAsyncWebServer` & `AsyncTCP`
 * `Adafruit_NeoMatrix` & `Adafruit_NeoPixel`
 * `BH1750`
